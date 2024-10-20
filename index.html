@@ -77,7 +77,78 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     background-clip: text;
     animation: flow 3s linear infinite;
     -webkit-text-fill-color: transparent;
-}</style>
+}
+
+/* Remove any padding and margin from the main container */
+.elementor-element-7b89833f {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Ensure the inner container takes full width and height */
+.elementor-element-7b89833f .e-con-inner {
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Make sure the video container covers the entire area */
+#video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Adjust the content overlay to cover the full area */
+.content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+/* Other styles remain the same */
+.content-wrapper {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    max-width: 80%;
+}
+
+.elementor-element-4687ba7 img {
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.elementor-element-6052eeab .elementor-heading-title,
+.elementor-element-5ab07d0f .elementor-heading-title {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+</style>
 <!-- end Simple Custom CSS and JS -->
 <!-- start Simple Custom CSS and JS -->
 <style>a[href="https://bmsit-ieee.github.io/sps/cts"] {
@@ -179,7 +250,7 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 	<div class="header-inner">
 		<div class="site-branding show-logo">
 							<div class="site-logo show">
-					<a href="https://bmsit-ieee.github.io/sps/" class="custom-logo-link" rel="home" aria-current="page"><img fetchpriority="high" width="592" height="527" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-20-at-10.21.44_38ad34a6.jpg" class="custom-logo" alt="" decoding="async"></a>				</div>
+					<a href="https://bmsit-ieee.github.io/sps/" class="custom-logo-link" rel="home" aria-current="page"><img fetchpriority="high" width="592" height="527" src="https://raw.githubusercontent.com/Endless-Mrianl/RAS/main/team/logo.png" class="custom-logo" alt="" decoding="async"></a>				</div>
 					</div>
 
 			</div>
@@ -196,7 +267,7 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.20.0 - 13-03-2024 */
 .elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>						<a href="#">
-			<img decoding="async" width="592" height="527" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-20-at-10.21.44_38ad34a6.jpg" class="attachment-full size-full wp-image-224" alt="">				</a>
+			<img decoding="async" width="592" height="527" src="https://raw.githubusercontent.com/Endless-Mrianl/RAS/main/team/logo.png" class="attachment-full size-full wp-image-224" alt="">				</a>
 									</div>
 				</div>
 				</div>
@@ -228,34 +299,46 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-7b89833e e-flex e-con-boxed e-con e-parent" data-id="7b89833e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-core-v316-plus="true">
+				<div class="elementor-element elementor-element-7b89833f e-flex e-con-boxed e-con e-parent" data-id="7b89833f" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-core-v316-plus="true">
 					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-4687ba7 elementor-widget elementor-widget-image" data-id="4687ba7" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-													<img decoding="async" width="300" height="227" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/03/22-TA-1-009_SPS_75Years_TM_Lockup_Color_RGB-1024x774-1.png" class="attachment-medium size-medium wp-image-87" alt="">													</div>
-				</div>
-				<div class="elementor-element elementor-element-6052eeab elementor-widget elementor-widget-heading" data-id="6052eeab" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.20.0 - 13-03-2024 */
-.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>
-<h1 class="elementor-heading-title elementor-size-default">Signal Processing Society BMSIT&M</h1>		</div>
-				</div>
-				<div class="elementor-element elementor-element-5ab07d0f elementor-widget elementor-widget-heading" data-id="5ab07d0f" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h5 class="elementor-heading-title elementor-size-default"> Empowering signal processing enthusiasts.</h5>		</div>
-				</div>
+						<div id="video-container">
+							<video id="background-video" autoplay loop muted playsinline>
+								<source src="https://raw.githubusercontent.com/Endless-Mrianl/RAS/main/team/New%20Project%20-%20Made%20with%20Clipchamp%20(1).mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							</video>
+						</div>
+						<div class="content-overlay">
+							<div class="content-wrapper">
+								<div class="elementor-element elementor-element-4687ba7 elementor-widget elementor-widget-image" data-id="4687ba7" data-element_type="widget" data-widget_type="image.default">
+									<div class="elementor-widget-container">
+										<img decoding="async" width="300" height="227" src="https://raw.githubusercontent.com/Endless-Mrianl/RAS/main/team/k1r76bia-removebg-preview.png" class="attachment-medium size-medium wp-image-87" alt="">
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-6052eeab elementor-widget elementor-widget-heading" data-id="6052eeab" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+										<h1 class="elementor-heading-title elementor-size-default">Robotics and Automation Society BMSIT&M</h1>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-5ab07d0f elementor-widget elementor-widget-heading" data-id="5ab07d0f" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+										<h5 class="elementor-heading-title elementor-size-default">Empowering Robotics enthusiasts.</h5>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-		<div class="elementor-element elementor-element-473e8aee e-con-full e-flex e-con e-parent" data-id="473e8aee" data-element_type="container" id="about" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-core-v316-plus="true">
-		<div class="elementor-element elementor-element-1a5e5343 e-con-full e-flex e-con e-child" data-id="1a5e5343" data-element_type="container">
+		
+				<div class="elementor-element elementor-element-473e8aee e-con-full e-flex e-con e-parent" data-id="473e8aee" data-element_type="container" id="about" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-core-v316-plus="true">		<div class="elementor-element elementor-element-1a5e5343 e-con-full e-flex e-con e-child" data-id="1a5e5343" data-element_type="container">
 				<div class="elementor-element elementor-element-e0f43a0 elementor-invisible elementor-widget elementor-widget-heading" data-id="e0f43a0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 			<h2 class="elementor-heading-title elementor-size-default">ABOUT US</h2>		</div>
 				</div>
 				<div class="elementor-element elementor-element-340e3de9 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="340e3de9" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
+					
 			<style>/*! elementor - v3.20.0 - 13-03-2024 */
-.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>IEEE SPS BMSIT&amp;M is a dynamic community of signal processing enthusiasts dedicated to fostering innovation and excellence in technology. Through research, collaboration, and educational initiatives, we aim to empower individuals to explore the forefront of signal processing and drive impactful solutions for the future. Join us as we embark on a journey of discovery, learning, and innovation.</p>						</div>
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>The IEEE RAS BMSIT&M chapter is a vibrant community of robotics and automation enthusiasts committed to advancing technology through innovation and collaboration. We strive to foster a culture of exploration and creativity in robotics, providing opportunities for research, skill development, and hands-on experience. Our chapter engages students and professionals alike in projects, workshops, and competitions that push the boundaries of what's possible in automation and robotics.</p>						</div>
 				</div>
 		<div class="elementor-element elementor-element-2f210d9 e-con-full e-flex e-con e-child" data-id="2f210d9" data-element_type="container">
 		<div class="elementor-element elementor-element-edc3e73 e-grid e-con-full e-con e-child" data-id="edc3e73" data-element_type="container">
@@ -268,7 +351,7 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 						VISION					</span>
 				</h3>
 									<p class="elementor-icon-box-description">
-						To pioneer innovative signal processing solutions, empowering individuals to shape the future of technology.					</p>
+										To be a leader in robotics and automation, inspiring and empowering individuals to create transformative technologies that enhance lives and shape the future.					</p>
 							</div>
 		</div>
 				</div>
@@ -282,7 +365,7 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 						MISSION					</span>
 				</h3>
 									<p class="elementor-icon-box-description">
-						To advance signal processing through excellence, innovation, and collaboration, shaping tomorrow's technology leaders.					</p>
+										To advance the field of robotics and automation through innovative research, collaborative initiatives, and educational programs, cultivating the next generation of technology leaders who will drive impactful change in the world.					</p>
 							</div>
 		</div>
 				</div>
@@ -293,7 +376,7 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 		<div class="elementor-element elementor-element-14d039a0 e-con-full e-flex e-con e-child" data-id="14d039a0" data-element_type="container">
 				<div class="elementor-element elementor-element-4dd0792e elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="4dd0792e" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-													<img loading="lazy" decoding="async" width="800" height="544" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/03/image1.png" class="attachment-large size-large wp-image-337" alt="">													</div>
+													<img loading="lazy" decoding="async" width="800" height="544" src="https://raw.githubusercontent.com/Endless-Mrianl/RAS/main/team/robo.jpg" class="attachment-large size-large wp-image-337" alt="">													</div>
 				</div>
 				</div>
 				</div>
@@ -311,12 +394,12 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 				</div>
 				<div class="elementor-element elementor-element-67028026 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="67028026" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;slideInUp&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h1 class="elementor-heading-title elementor-size-default">WHY JOIN SPS?</h1>		</div>
+			<h1 class="elementor-heading-title elementor-size-default">WHY JOIN RAS?</h1>		</div>
 				</div>
 				<div class="elementor-element elementor-element-4c2e083e elementor-align-center elementor-widget elementor-widget-button" data-id="4c2e083e" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="https://signalprocessingsociety.org/" target="_blank">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="https://www.ieee-ras.org/" target="_blank">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-text">Learn more</span>
 		</span>
@@ -335,7 +418,7 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 						PROFESSIONAL DEVELOPMENT					</span>
 				</h3>
 									<p class="elementor-icon-box-description">
-						Elevate your skills with tailored workshops and tech upscaling, ensuring you stay ahead in signal processing.					</p>
+										Advance your skills with hands-on workshops and specialized training in robotics and automation, ensuring you stay ahead in a rapidly evolving field.					</p>
 							</div>
 		</div>
 				</div>
@@ -346,10 +429,10 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 						<div class="elementor-icon-box-content">
 				<h3 class="elementor-icon-box-title">
 					<span>
-						NETWORKING					</span>
+						ROBOTICS INNOVATION					</span>
 				</h3>
 									<p class="elementor-icon-box-description">
-						 Connect with industry leaders and peers, unlocking collaboration and career opportunities.					</p>
+										Participate in initiatives that foster groundbreaking advancements in robotics, working on projects that challenge the status quo and drive industry progress.					</p>
 							</div>
 		</div>
 				</div>
@@ -363,7 +446,7 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 						CONFERENCES AND EVENTS					</span>
 				</h3>
 									<p class="elementor-icon-box-description">
-						Dive into the latest trends and innovations at our curated events, gaining insights to fuel your success.					</p>
+										Join us at leading events to explore the latest innovations, share insights, and discover new applications in robotics and automation.					</p>
 							</div>
 		</div>
 				</div>
@@ -377,7 +460,9 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 						PUBLICATIONS AND RESOURCES					</span>
 				</h3>
 									<p class="elementor-icon-box-description">
-						Access curated materials to support your journey in signal processing, from research to practical resources.					</p>
+						Gain access to a curated selection of research, technical articles, and practical resources to support your work in robotics and automation.
+
+					</p>
 							</div>
 		</div>
 				</div>
@@ -402,18 +487,18 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 					<div class="elementor-icon-box-wrapper">
 						<div class="elementor-icon-box-content">
 				<h3 class="elementor-icon-box-title">
-					<a href="https://bmsit-ieee.github.io/sps/cts" target="_blank">
-						Capture The Signal					</a>
+					
+						SOP					</a>
 				</h3>
 									<p class="elementor-icon-box-description">
-						An Immersive two-day event, CTF based Capture the Signal(CTS) is an event with concepts of hardware, signal processing, machine learning and speed skills put to a test.<b> Click on Title</b> for more information.					</p>
+						.......					</p>
 							</div>
 		</div>
 				</div>
 				</div>
 				<div class="elementor-element elementor-element-16eff097 elementor-widget elementor-widget-heading" data-id="16eff097" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">5, 6 July</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default">Dates</h2>		</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-5844df32 e-con-full e-flex e-con e-child" data-id="5844df32" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -423,7 +508,7 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 						<div class="elementor-icon-box-content">
 				<h3 class="elementor-icon-box-title">
 					<span>
-						Sparkathon					</span>
+						Workshop					</span>
 				</h3>
 									<p class="elementor-icon-box-description">
 						...					</p>
@@ -433,7 +518,7 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 				</div>
 				<div class="elementor-element elementor-element-23e5bf2b elementor-widget elementor-widget-heading" data-id="23e5bf2b" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Nov</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default">Dates</h2>		</div>
 				</div>
 				</div>
 				</div>
@@ -446,18 +531,17 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 				</div>
 				<div class="elementor-element elementor-element-3fe710e0 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="3fe710e0" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Explore our past activities, fueling signal processing innovation.</p>						</div>
+							<p>Explore our past activities, fueling robotics and automation innovation.</p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-427a820 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="427a820" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;2&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.20.0 - 13-03-2024 */
 .elementor-widget-image-carousel .swiper,.elementor-widget-image-carousel .swiper-container{position:static}.elementor-widget-image-carousel .swiper-container .swiper-slide figure,.elementor-widget-image-carousel .swiper .swiper-slide figure{line-height:inherit}.elementor-widget-image-carousel .swiper-slide{text-align:center}.elementor-image-carousel-wrapper:not(.swiper-container-initialized):not(.swiper-initialized) .swiper-slide{max-width:calc(100% / var(--e-image-carousel-slides-to-show, 3))}</style>		<div class="elementor-image-carousel-wrapper swiper" dir="ltr">
 			<div class="elementor-image-carousel swiper-wrapper" aria-live="off">
-								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 of 5"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/03/ANNUAL-GENERAL-MEETING-2024.jpg" alt="ANNUAL GENERAL MEETING 2024"><figcaption class="elementor-image-carousel-caption">ANNUAL GENERAL MEETING 2024</figcaption></figure></div>
-<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 of 5"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/03/agm1.jpg" alt="Abhishek Appaji - Chair SPS Bangalore"><figcaption class="elementor-image-carousel-caption">Abhishek Appaji - Chair SPS Bangalore</figcaption></figure></div>
-<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 of 5"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/04/WhatsApp-Image-2024-04-05-at-22.22.24_3cd85c2e.jpg" alt="ICASSP Satellite Event, Hyd"><figcaption class="elementor-image-carousel-caption">ICASSP Satellite Event, Hyd</figcaption></figure></div>
-<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 of 5"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/04/WhatsApp-Image-2024-04-05-at-22.22.24_0437ac4b.jpg" alt="SPS Bangalore Section at ICASSP Satellite Event"><figcaption class="elementor-image-carousel-caption">SPS Bangalore Section at ICASSP Satellite Event</figcaption></figure></div>
-<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="5 of 5"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/04/WhatsApp-Image-2024-04-05-at-22.22.25_a96afb2b.jpg" alt="IEEE SPS BMSIT at ICASSP Satellite Event"><figcaption class="elementor-image-carousel-caption">IEEE SPS BMSIT at ICASSP Satellite Event</figcaption></figure></div>			</div>
+								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 of 5"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://raw.githubusercontent.com/Endless-Mrianl/RAS/main/team/team.jpg" alt="ANNUAL GENERAL MEETING 2024"><figcaption class="elementor-image-carousel-caption">ANNUAL GENERAL MEETING 2024</figcaption></figure></div>
+<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 of 5"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://raw.githubusercontent.com/Endless-Mrianl/RAS/main/team/sop.jpg" alt="Abhishek Appaji - Chair SPS Bangalore"><figcaption class="elementor-image-carousel-caption">SOP Phase-1 Event 2024</figcaption></figure></div>
+<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 of 5"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://raw.githubusercontent.com/Endless-Mrianl/RAS/main/team/R10.jpg" alt="ICASSP Satellite Event, Hyd"><figcaption class="elementor-image-carousel-caption">R10 Event 2024</figcaption></figure></div>
+<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 of 5"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://raw.githubusercontent.com/Endless-Mrianl/RAS/main/team/rocket.jpg" alt="SPS Bangalore Section at ICASSP Satellite Event"><figcaption class="elementor-image-carousel-caption">Rocket League Event 2024</figcaption></figure></div>			</div>
 												<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0">
 						<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-left" viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z"></path></svg>					</div>
 					<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0">
@@ -501,17 +585,17 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 <div class="xpro-team-wrapper xpro-team-layout-14">
 	
 		<div class="xpro-team-image">
-		<img loading="lazy" decoding="async" width="800" height="878" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/03/Saneeshsir.advisor.png" class="attachment-large size-large" alt="">				</div>
+		<img loading="lazy" decoding="async" width="800" height="878" src="https://raw.githubusercontent.com/Endless-Mrianl/RAS/main/IMG_9217.png" class="attachment-large size-large" alt="">				</div>
 <div class="xpro-team-content">
-				<h2 class="xpro-team-title">Dr. Thyagaraj</h2>
-			<h4 class="xpro-team-designation">Branch Advisor</h4>		
+				<h2 class="xpro-team-title">Allen Prabu</h2>
+			<h4 class="xpro-team-designation">Chair</h4>		
 	<ul class="xpro-team-social-list">
 				<li class="elementor-repeater-item-8aa0d66">
-			<a target="_blank" href="https://www.linkedin.com/in/saneesh-cleatus/" class="xpro-team-social-icon">
+			<a target="_blank"  class="xpro-team-social-icon">
 			<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>			</a>
 			</li>
 				<li class="elementor-repeater-item-2167750">
-			<a target="_blank" href="https://www.instagram.com/saneeshmail/" class="xpro-team-social-icon">
+			<a target="_blank" href="https://www.instagram.com/allen_rogues?igsh=bXh3c3MzaWN3dm9t" class="xpro-team-social-icon">
 			<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>			</a>
 			</li>
 			</ul>
@@ -525,18 +609,18 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 <div class="xpro-team-wrapper xpro-team-layout-14">
 	
 		<div class="xpro-team-image">
-		<img loading="lazy" decoding="async" width="768" height="1024" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/03/AdityaChair.jpg" class="attachment-medium_large size-medium_large" alt="">				</div>
+		<img loading="lazy" decoding="async" width="768" height="1024" src="https://raw.githubusercontent.com/Endless-Mrianl/RAS/main/IMG_9203g.png" class="attachment-medium_large size-medium_large" alt="">				</div>
 <div class="xpro-team-content">
-				<h2 class="xpro-team-title">Allen  K</h2>
-			<h4 class="xpro-team-designation">Chair</h4>
+				<h2 class="xpro-team-title">R Tanish</h2>
+			<h4 class="xpro-team-designation">Vice Chair</h4>
 		
 	<ul class="xpro-team-social-list">
 				<li class="elementor-repeater-item-7402538">
-			<a target="_blank" href="https://www.linkedin.com/in/aditya-srinivas-k/" class="xpro-team-social-icon">
+			<a target="_blank"  class="xpro-team-social-icon">
 			<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>			</a>
 			</li>
 				<li class="elementor-repeater-item-2c41c05">
-			<a target="_blank" href="https://www.instagram.com/adityaa.24/" class="xpro-team-social-icon">
+			<a target="_blank"  class="xpro-team-social-icon">
 			<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>			</a>
 			</li>
 			</ul>
@@ -550,19 +634,20 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 <div class="xpro-team-wrapper xpro-team-layout-14">
 	
 		<div class="xpro-team-image">
-		<img loading="lazy" decoding="async" width="514" height="687" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/03/PanthangiViceCHair.jpg" class="attachment-large size-large" alt="">				</div>
+		<img loading="lazy" decoding="async" width="514" height="687" src="https://raw.githubusercontent.com/Endless-Mrianl/RAS/main/IMG_9205g.png" class="attachment-large size-large" alt="">				</div>
 <div class="xpro-team-content">
-				<h2 class="xpro-team-title">Shashank Panthangi</h2>
-			<h4 class="xpro-team-designation">Vice Chair</h4>
+				<h2 class="xpro-team-title">Sharath S C</h2>
+			<h4 class="xpro-team-designation">Secretary</h4>
 		
 	<ul class="xpro-team-social-list">
 				<li class="elementor-repeater-item-caccfc8">
-			<a target="_blank" href="https://www.linkedin.com/in/shashankcpanthangibmsit/" class="xpro-team-social-icon">
+			<a target="_blank"  class="xpro-team-social-icon">
 			<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>			</a>
+			
 			</li>
-				<li class="elementor-repeater-item-a46c077">
-			<span target="_blank" class="xpro-team-social-icon">
-			<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>			</span>
+				<li class="elementor-repeater-item-2167750">
+			<a target="_blank" href="https://www.instagram.com/sharathsc44?igsh=dm01OXNsaDB3YzM2" class="xpro-team-social-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>			</a>
 			</li>
 			</ul>
 </div>
@@ -575,14 +660,14 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 <div class="xpro-team-wrapper xpro-team-layout-14">
 	
 		<div class="xpro-team-image">
-		<img loading="lazy" decoding="async" width="567" height="798" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/03/SpandanSecretary.jpg" class="attachment-large size-large" alt="">				</div>
+		<img loading="lazy" decoding="async" width="567" height="798" src="https://raw.githubusercontent.com/Endless-Mrianl/RAS/main/IMG_9201.png" class="attachment-large size-large" alt="">				</div>
 <div class="xpro-team-content">
-				<h2 class="xpro-team-title">Spandan S Salimath</h2>
-			<h4 class="xpro-team-designation">Secretary</h4>
+				<h2 class="xpro-team-title">Tharun</h2>
+			<h4 class="xpro-team-designation">Joint-Secretary</h4>
 		
 	<ul class="xpro-team-social-list">
 				<li class="elementor-repeater-item-43936b3">
-			<a target="_blank" href="https://www.linkedin.com/in/spandan-s-salimath-3559382a2/" class="xpro-team-social-icon">
+			<a target="_blank"  class="xpro-team-social-icon">
 			<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>			</a>
 			</li>
 				<li class="elementor-repeater-item-4b8ffe2">
@@ -604,18 +689,18 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 <div class="xpro-team-wrapper xpro-team-layout-14">
 	
 		<div class="xpro-team-image">
-		<img loading="lazy" decoding="async" width="789" height="1024" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/03/spandan.webmaster-1.jpg" class="attachment-large size-large" alt="">				</div>
+		<img loading="lazy" decoding="async" width="789" height="1024" src="------------------image------------.jpg" class="attachment-large size-large" alt="">				</div>
 <div class="xpro-team-content">
-				<h2 class="xpro-team-title">Sourabh K H</h2>
+				<h2 class="xpro-team-title">Purva Hegde</h2>
 			<h4 class="xpro-team-designation">Treasurer</h4>
 		
 	<ul class="xpro-team-social-list">
 				<li class="elementor-repeater-item-c5bc8e4">
-			<a target="_blank" href="https://www.linkedin.com/in/sourabh-hiremath/" class="xpro-team-social-icon">
+			<a target="_blank"  class="xpro-team-social-icon">
 			<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>			</a>
 			</li>
 				<li class="elementor-repeater-item-257eb5d">
-			<a target="_blank" href="https://www.instagram.com/s1mple_sourii/" class="xpro-team-social-icon">
+			<a target="_blank" href="https://www.instagram.com/purva.hegde?igsh=dTRsejliMzM0czhm" class="xpro-team-social-icon">
 			<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>			</a>
 			</li>
 			</ul>
@@ -627,25 +712,27 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 				<div class="elementor-widget-container">
 			
 <div class="xpro-team-wrapper xpro-team-layout-14">
-	
-		<div class="xpro-team-image">
-		<img loading="lazy" decoding="async" width="399" height="488" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/03/yogitha.webmaster.png" class="attachment-large size-large" alt="">				</div>
-<div class="xpro-team-content">
-				<h2 class="xpro-team-title">Yogitha H N</h2>
-			<h4 class="xpro-team-designation">Joint Secretary</h4>
-		
-	<ul class="xpro-team-social-list">
-				<li class="elementor-repeater-item-8aa0d66">
-			<a target="_blank" href="https://www.linkedin.com/in/yogitha-hn-7333522b1/" class="xpro-team-social-icon">
-			<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>			</a>
-			</li>
-				<li class="elementor-repeater-item-2167750">
-			<a target="_blank" href="https://www.instagram.com/yogithahn95/" class="xpro-team-social-icon">
-			<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>			</a>
-			</li>
-			</ul>
+    <div class="xpro-team-image">
+        <img loading="lazy" decoding="async" width="399" height="488" src="https://raw.githubusercontent.com/Endless-Mrianl/RAS/main/88888.png" class="attachment-large size-large" alt="">
+    </div>
+    <div class="xpro-team-content">
+        <h2 class="xpro-team-title">Mrinal Midha</h2>
+        <h4 class="xpro-team-designation">Web Master</h4>
+        <ul class="xpro-team-social-list">
+            <li class="elementor-repeater-item-8aa0d66">
+                <a target="_blank" class="xpro-team-social-icon">
+                    <svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+                </a>
+            </li>
+            <li class="elementor-repeater-item-2167750">
+                <a target="_blank" href="https://www.instagram.com/mysterious._mrinal_" class="xpro-team-social-icon">
+                    <svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                </a>
+            </li>
+        </ul>
+    </div>
 </div>
-</div>
+
 		</div>
 				</div>
 				<div class="elementor-element elementor-element-67eb95d elementor-widget elementor-widget-xpro-team" data-id="67eb95d" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;14&quot;}" data-widget_type="xpro-team.default">
@@ -654,18 +741,18 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 <div class="xpro-team-wrapper xpro-team-layout-14">
 	
 		<div class="xpro-team-image">
-		<img loading="lazy" decoding="async" width="317" height="397" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/03/spandan.webmaster.jpg" class="attachment-large size-large" alt="">				</div>
+		<img loading="lazy" decoding="async" width="317" height="397" src="https://raw.githubusercontent.com/Endless-Mrianl/RAS/main/IMG_9210.png" class="attachment-large size-large" alt="">				</div>
 <div class="xpro-team-content">
-				<h2 class="xpro-team-title">Suhas B S</h2>
-			<h4 class="xpro-team-designation">Web Master</h4>
+				<h2 class="xpro-team-title">Shankar</h2>
+			<h4 class="xpro-team-designation">R&D Head</h4>
 		
 	<ul class="xpro-team-social-list">
 				<li class="elementor-repeater-item-8aa0d66">
-			<a target="_blank" href="https://www.linkedin.com/in/suhasbs223/" class="xpro-team-social-icon">
+			<a target="_blank"  class="xpro-team-social-icon">
 			<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>			</a>
 			</li>
 				<li class="elementor-repeater-item-2167750">
-			<a target="_blank" href="https://www.instagram.com/suhasbs_223/" class="xpro-team-social-icon">
+			<a target="_blank" href="https://www.instagram.com/__shankar_reddy?igsh=bDJlNW1vZGEyY2F1" class="xpro-team-social-icon">
 			<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>			</a>
 			</li>
 			</ul>
@@ -679,19 +766,19 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 <div class="xpro-team-wrapper xpro-team-layout-14">
 	
 		<div class="xpro-team-image">
-		<img loading="lazy" decoding="async" width="364" height="460" src="https://bmsit-ieee.github.io/sps/wp-content/uploads/2024/03/rachana.webmaster.png" class="attachment-large size-large" alt="">				</div>
+		<img loading="lazy" decoding="async" width="364" height="460" src="--------------image---------------.png" class="attachment-large size-large" alt="">				</div>
 <div class="xpro-team-content">
-				<h2 class="xpro-team-title">Rachana M</h2>
-			<h4 class="xpro-team-designation">Web Master</h4>
+				<h2 class="xpro-team-title">Tarun Patil</h2>
+			<h4 class="xpro-team-designation">CO-R&D Head</h4>
 		
 	<ul class="xpro-team-social-list">
 				<li class="elementor-repeater-item-8aa0d66">
-			<a target="_blank" href="https://www.linkedin.com/in/rachana-m-a176932a2/" class="xpro-team-social-icon">
+			<a target="_blank"  class="xpro-team-social-icon">
 			<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>			</a>
 			</li>
 				<li class="elementor-repeater-item-2167750">
-			<span target="_blank" class="xpro-team-social-icon">
-			<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>			</span>
+			<a target="_blank" href="https://www.instagram.com/mrtarunpatil?igsh=MTBnNmUyN3NyN2pjZA==" class="xpro-team-social-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>			</a>
 			</li>
 			</ul>
 </div>
@@ -780,12 +867,12 @@ a[href="https://bmsit-ieee.github.io/sps/cts"]:hover {
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<i aria-hidden="true" class="xi xi-email"></i>						</span>
-										<span class="elementor-icon-list-text">ieeespsbmsit@gmail.com</span>
+										<span class="elementor-icon-list-text">ieeerasbmsit@gmail.com</span>
 									</li>
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<i aria-hidden="true" class="xi xi-phone-6"></i>						</span>
-										<span class="elementor-icon-list-text">+91 90197 14493 - Sourabh (Treasurer)</span>
+										<span class="elementor-icon-list-text">+91 6361 196 329 - Allen (chair)</span>
 									</li>
 						</ul>
 				</div>
@@ -861,4 +948,35 @@ wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 <script src="https://bmsit-ieee.github.io/sps/wp-content/plugins/xpro-elementor-addons/inc/controls/assets/js/widgetarea-editor.js?ver=1.4.2" id="xpro-elementor-widgetarea-editor-js"></script>
 
 </body>
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var video = document.getElementById('background-video');
+		var videoUrl = 'https://raw.githubusercontent.com/Endless-Mrianl/RAS/main/team/New%20Project%20-%20Made%20with%20Clipchamp%20(1).mp4';
+	
+		// Create a new source element
+		var source = document.createElement('source');
+		source.src = videoUrl;
+		source.type = 'video/mp4';
+	
+		// Append the source to the video element
+		video.appendChild(source);
+	
+		// Force the video to load
+		video.load();
+	
+		// Play the video
+		var playPromise = video.play();
+	
+		if (playPromise !== undefined) {
+			playPromise.then(_ => {
+				// Autoplay started
+				console.log('Video started playing');
+			}).catch(error => {
+				// Autoplay was prevented
+				console.log('Autoplay was prevented:', error);
+				// You can add a play button or other UI element here to allow user-initiated playback
+			});
+		}
+	});
+	</script>
 </html>
